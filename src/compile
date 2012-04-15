@@ -1,0 +1,1 @@
+gcc -g -I. -L.libs t.c foo/crash_report.pb-c.c   -lprotobuf-c
