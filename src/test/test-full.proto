@@ -25,6 +25,7 @@ enum TestEnum {
   VALUE268435456 = 268435456;
 }
 enum TestEnumDupValues {
+  option allow_alias = true;
   VALUE_A = 42;
   VALUE_B = 42;
   VALUE_C = 42;
